@@ -19,9 +19,3 @@ remainder_days seconds    = mod (seconds2days seconds) 365
 remainder_years seconds   = mod (seconds2years seconds) 365
 
 output_conversion x = ( remainder_years x, remainder_days x, remainder_hours x, remainder_minutes x, remainder_seconds x)
-
--- Ejercicio 2
-
--- f x y = 2 * x - y * x
--- g x = f (f 2 x) (f x 1)
--- h x y z = f  (5 - g(z) - y)
