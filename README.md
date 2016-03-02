@@ -7,10 +7,15 @@
     ```
 3. Build the exercise and run the test.
     Example for exercise 1:
-    ```Bash
-      $ :l exercise1.hs
-      Prelude> :l exercise1.hs
-      *Main> output_conversion (365*24*60*60)
     ```
+      $ :l exercise1.hs
+    ```    
+    ```
+      Prelude> :l exercise1.hs
+    ```   
+    ```
+     *Main> output_conversion (365*24*60*60)
+    ```
+      
 
-*Note:* $ symbol means commands executed from the terminal
+**Note:** $ symbol means commands executed from the terminal
